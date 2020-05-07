@@ -20,7 +20,7 @@ export default class Contact extends Component {
           <div className="row contact-form">
             <div className="col-twelve">
               {/* form */}
-              <form name="contactForm" id="contactForm" method="post" action>
+              <form name="contactForm" id="contactForm" method="post" action="">
                 <fieldset>
                   <div className="form-field">
                     <input
@@ -28,7 +28,7 @@ export default class Contact extends Component {
                       type="text"
                       id="contactName"
                       placeholder="Name"
-                      defaultValue
+                      defaultValue=""
                       minLength={2}
                       required
                     />
@@ -39,7 +39,7 @@ export default class Contact extends Component {
                       type="email"
                       id="contactEmail"
                       placeholder="Email"
-                      defaultValue
+                      defaultValue=""
                       required
                     />
                   </div>
@@ -49,7 +49,7 @@ export default class Contact extends Component {
                       type="text"
                       id="contactSubject"
                       placeholder="Subject"
-                      defaultValue
+                      defaultValue=""
                     />
                   </div>
                   <div className="form-field">

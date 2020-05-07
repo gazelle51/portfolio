@@ -15,7 +15,11 @@ export default class Intro extends Component {
                   <span>Front-end Developer</span>
                   <span>UI/UX Designer</span>
                 </p>
-                <a className="button stroke smoothscroll" href="#about" title>
+                <a
+                  className="button stroke smoothscroll"
+                  href="#about"
+                  title=""
+                >
                   More About Me
                 </a>
               </div>
