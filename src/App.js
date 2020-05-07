@@ -1,4 +1,5 @@
 import React from "react";
+
 import Header from "./components/header/header";
 import Intro from "./components/intro/intro";
 import About from "./components/about/about";
@@ -10,14 +11,15 @@ import Stats from "./components/stats/stats";
 import Contact from "./components/contact/contact";
 import Footer from "./components/footer/footer";
 
-// import logo from "./logo.svg";
+import resumeData from "./resumeData";
+
 import "./App.css";
 
 function App() {
   return (
     <div className="App">
       <Header />
-      <Intro />
+      <Intro resumeData={resumeData} />
       <About />
       <Resume />
       <Portfolio />
